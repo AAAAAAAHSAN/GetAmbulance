@@ -42,7 +42,7 @@ public class Admin extends AppCompatActivity {
 
 
         DatabaseReference first= FirebaseDatabase.getInstance().getReference("HospitalList");
-        dropdown=(Spinner)findViewById(R.id.spinner);
+        dropdown=findViewById(R.id.spinner);
 
         final ArrayAdapter<String> arrayAdapter2= new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,Hospitals.forparent);
 
